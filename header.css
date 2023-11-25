@@ -1,0 +1,142 @@
+.logo__imagem{
+    width: 100px;
+}
+
+.banner__superior{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    width: auto;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: var(--vinho);
+}
+
+.quadrado__propaganda{
+    height: auto;
+    border-radius: 30px;
+    margin: 1em;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+}
+
+.quadrado__propaganda--txt--class{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 62px;
+    font-family: "Poppins", sans-serif;
+    width: 283px;
+    padding-left: 0.3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__superior__grupo {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__superior--itens {
+    text-decoration: none;
+    padding: 1em 2em;
+    color: black;
+    transition: all 500ms ease;
+    position: relative;
+    top: 0px;
+    display: flex;
+    text-align: center;
+}
+
+.menu__superior--itens.active,
+.menu__superior--itens:hover {
+    color: var(--vinho);
+    text-decoration: underline;
+}
+.menu__superior--itens:hover {
+    top: -10px;
+}
+
+.logo__imagem {
+    cursor: pointer;
+    transition: all 250ms ease;
+    transform: scale(1);
+}
+.logo__imagem:hover {
+    transform: scale(1.2);
+}
+
+.quadrado__propaganda {
+    cursor: pointer;
+    transition: all 250ms ease;
+    transform: scale(1);
+}
+.quadrado__propaganda:hover {
+    transform: scale(1.02);
+}
+
+.quadrado__propaganda img {
+    width: 100%;
+    height: auto;
+}
+
+.novidades__produto--01:hover {
+    transform: scale(1.05);
+}
+
+.novidades__produto--02:hover {
+    transform: scale(1.05);
+}
+
+.novidades__produto--03:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 480px) {
+    
+    .banner__superior {
+        flex-direction: column;
+    }
+
+    .logo__imagem {
+        width: 200px;
+    }
+
+    .novidades__produto {
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+    }
+
+    .novidades__produto--01 {
+        padding: 1em;
+    }
+
+    .menu__superior__grupo {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    .menu__superior--itens {
+       padding: 0.5em 0.7em;
+    }
+    .menu__superior__grupo{
+        font-size: 11px;
+    }
+
+    .novidades__produto {
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+    }
+
+}

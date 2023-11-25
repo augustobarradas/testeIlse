@@ -1,0 +1,121 @@
+:root {
+    --branco:  #FFFFFF;
+    --cinza: #E7E6E6;
+    --fonte__principal: "Poppins";
+    --vinho: #53035e;
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--fonte__principal);
+    display: flex;
+    justify-content: center;
+}
+
+.box--vinho {
+    width: 350px;
+    height: 90px;
+    background-color: #53035e;
+    color: white;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.divisoria {
+    width: auto;
+    height: 100px;
+    background-color: var(--vinho);
+    margin-top: 1em;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    width: 100vw;
+}
+
+.novidades {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 2em 1.5em;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+}
+
+/* Animacao para menus */
+.novidades {
+    cursor: pointer;
+    transition: all 250ms ease;
+    transform: scale(1);
+}
+
+.novidades:hover {
+    transform: scale(1.2);
+}
+
+/* --------------------- */
+
+.novidades__produto {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.novidades__produto--01--imagem {
+    width: 284px;
+    height: 404px;
+    border-radius: 7%;
+    background-size: cover;
+}
+
+.novidades__produto--02 {
+    width: 284px;
+    height: 404px;
+    background-image: url("./img/espelho1.png");
+    border-radius: 7%;
+    background-size: cover;
+}
+
+.novidades__produto--03 {
+    width: 284px;
+    height: 404px;
+    background-image: url("./img/luminaria.JPG");
+    border-radius: 7%;
+    background-size: cover;
+}
+
+.novidades__produto--01--txt{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+    
+}
+
+.quadrado__propaganda--imagem {
+    width: 200px;
+}
+
+.quadrado__propaganda--imagem--logo {
+    height: 230px;
+}
+
+.quemsoueu__titulo{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 1.5em;
+}
+.quemsoueu__txt {
+    line-height: normal;
+    width: 300px;
+    text-align: center;
+    padding-top: 2em;
+}
+

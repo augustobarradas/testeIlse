@@ -1,0 +1,57 @@
+.footer__info--contato--imagem {
+    height: 100px;
+}
+
+.footer__image--01 {
+    height: 230px;
+    cursor: pointer;
+    transition: all 250ms ease;
+    transform: scale(1);
+}
+
+.footer__image--01:hover {
+    transform: scale(1.2);
+}
+
+
+.footer__image {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.footer__info--contato {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    flex-direction: column;
+}
+
+.footer__dev--text{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.footer__info--contato--txt {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.footer__info--contato--imagem {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.divisoria--menu {
+    padding: 1em;
+}

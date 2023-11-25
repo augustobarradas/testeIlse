@@ -2,15 +2,15 @@ const products =
 {
     espelho:[
         {
-            name: 'espelho1', 
+            name: 'Amarelo', 
             imgUrl: './img_dos_produtos/espelho/espelho1.jpg', 
         },
         {
-            name: 'espelho2', 
+            name: 'Vermelho', 
             imgUrl: './img_dos_produtos/espelho/espelho2.jpg',
         },
         {
-            name: 'espelho3', 
+            name: 'Verde', 
             imgUrl: './img_dos_produtos/espelho/espelho3.jpg',
         },
 
@@ -33,30 +33,30 @@ const products =
 
     arvores_da_vida:[
         {
-            name: 'arvore da vida 1', 
+            name: 'Aro de MDF', 
             imgUrl: './img_dos_produtos/arvore_da_vida/arvore_da_vida1.JPG',
         },
         {
-            name: 'arvore da vida 2', 
+            name: 'Aro de Madeira', 
             imgUrl: './img_dos_produtos/arvore_da_vida/arvore_da_vida2.JPG',
         },
         {
-            name: 'arvore da vida 3', 
+            name: 'Aro de Metal', 
             imgUrl: './img_dos_produtos/arvore_da_vida/arvore_da_vida3.JPG',
         },
     ],
 
     balancos:[
         {
-            name: 'balancos1', 
+            name: 'Infantil', 
             imgUrl: './img_dos_produtos/Balanco/balanco1.jpg',
         },
         {
-            name: 'balancos2', 
+            name: 'Maresias', 
             imgUrl: './img_dos_produtos/Balanco/balanco2.jpg',
         },
         {
-            name: 'balancos3', 
+            name: 'Ilha Bela', 
             imgUrl: './img_dos_produtos/Balanco/balanco3.jpg',
         },
     ],
@@ -78,15 +78,15 @@ const products =
 
     suporte_de_plantas:[
         {
-            name: 'suporte de plantas 1', 
+            name: 'Espiral', 
             imgUrl: './img_dos_produtos/suporte_de_plantas/suporte_de_plantas1.jpg',
         },
         {
-            name: 'suporte de plantas 2', 
+            name: 'No vidro', 
             imgUrl: './img_dos_produtos/suporte_de_plantas/suporte_de_plantas2.jpg',
         },
         {
-            name: 'suporte de plantas 3', 
+            name: 'Triplo', 
             imgUrl: './img_dos_produtos/suporte_de_plantas/suporte_de_plantas3.jpg',
         },
     ],
